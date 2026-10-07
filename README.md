@@ -32,7 +32,7 @@ The dataset is structured as a **Star Schema** to ensure efficient query perform
 ---
 
 ## 📐 Key DAX Measures
-![Dax Measures](Measures/dax_measures.txt")
+[View Dax Measures](Measures/dax_measures.txt")
 
 ---
 
