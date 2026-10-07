@@ -5,33 +5,13 @@ This Power BI project provides an end-to-end sales performance and business inte
 
 ---
 
-## 📂 Repository Structure
-
-Toy-Store-Sales-Analysis/  
-├── Data/&emsp;&emsp;# Dataset files  
-│   ├── data_dictionary.csv  
-│   ├── inventory.csv  
-│   ├── products.csv  
-│   ├── sales.csv  
-│   └── stores.csv  
-├── Documentation/&emsp;&emsp;# Project screenshots & visual assets  
-│   ├── dashboard_overview (1).png  
-│   ├── dashboard_overview (2).png  
-│   └── data_model.png  
-├── Measures/&emsp;&emsp;# Custom DAX calculations  
-│   └── dax_measures.txt  
-├── Toy-Store-Sales-Analysis.pbix&emsp;&emsp;# Main Power BI Desktop file  
-├── .gitignor&emsp;&emsp;# Git configuration file  
-└── README.md&emsp;&emsp;# Project documentation  
-
----
-
 ## 🛠️ Key Requirements & Features Implemented
 
 1. **Data Modeling:** Established relationships between the `sales` fact table and dimension tables in a Star Schema format.
 2. **DAX Measures & KPIs:** Created calculated measures for core metrics such as Total Sales, Total Profit, Profit Margin %, Units Sold, and store performance analysis.
 3. **Interactive Dashboard Design:** Designed dynamic visual layouts with clear hierarchy, slicers/filters (by City, Product Category, and Date).
 4. **User Navigation & Bookmarks:** Integrated navigation bookmarks to enhance user experience and seamlessly toggle between view levels.
+5. **Data Insights:** Identified actionable trends regarding high-margin product categories, top-performing retail locations, and inventory turnover recommendations.
 
 ---
 
@@ -53,6 +33,18 @@ The dataset is structured as a **Star Schema** to ensure efficient query perform
 
 ## 📐 Key DAX Measures
 ![Dax Measures](Measures/dax_measures.txt")
+
+---
+
+## 💡 Executive Insights & Strategic Recommendations
+
+* **Cumulative Performance:** Generated **$4.01M in total net profit** ($2.19M in 2025 | $1.82M in 2026) across $14.44M in total revenues.
+* **Top Sales Volume Driver:** `Toys` consistently leads overall sales volume across both years ($2.79M in 2025 | $2.31M in 2026).
+* **Top Profit Drivers:** `Electronics` led profitability in 2025 ($674.41K profit), while `Art & Crafts` took the lead in 2026 ($480.41K profit).
+* **Geographic Engine:** `Downtown` store locations generate over 50% of total company net profits ($1.22M in 2025 | $1.03M in 2026).
+* **Strategic Actions:** Prioritize stock replenishment for Downtown locations to eliminate stockouts, and expand product offerings in high-margin categories (`Electronics` & `Art & Crafts`).
+
+📄 **[Read Full Insights Report (PDF)](Documentation/insights_report.pdf)**
 
 ---
 
