@@ -27,9 +27,7 @@ The dataset is structured as a **Star Schema** to ensure efficient query perform
 ## 🖥️ Dashboard Overview
 
 ![Dashboard View 1](Documentation/Revenues_2026.png)
-![Dashboard View 2](Documentation/Revenues_2025.png)
 ![Dashboard View 1](Documentation/Profits_2026.png)
-![Dashboard View 2](Documentation/Profits_2025.png)
 
 ---
 
