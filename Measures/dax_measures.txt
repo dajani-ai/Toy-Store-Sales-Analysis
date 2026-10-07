@@ -1,0 +1,8 @@
+Measures
+Total Sales Revenue = SUMX(Sales, Sales[Units] * RELATED(Products[Product_Price]))
+Total Units Sold = SUM(Sales[Units])
+Total Cost = SUMX(Sales, Sales[Units] * RELATED(Products[Product_Cost]))
+Total Profit = [Total Sales Revenue] - [Total Cost]
+Profit Margin % = DIVIDE([Total Profit], [Total Sales Revenue], 0)
+Revenue PY = CALCULATE([Total Sales Revenue], SAMEPERIODLASTYEAR('Calendar'[Date]))
+YoY Revenue Growth % = DIVIDE([Total Sales Revenue] - [Revenue PY], [Revenue PY], 0)
